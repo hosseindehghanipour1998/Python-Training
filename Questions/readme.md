@@ -413,3 +413,73 @@ Return value:
 
 ###### Part VII : Deep Copy
 Define a function named deepCopy that takes a list as parameter and returns a copy of that list. The list may contain other lists and those lists may contain other lists and so on. You are not allowed to use slicing and other functions and methods of python.
+
+## Bonus part
+
+### 20 - Work With strings I
+1. Write a python program that takes a string as input and prints its characters in separate lines.
+2. Define a function that takes two string as parameters and compare them. It should return -1 if str1 < str2, 0 if str1 == str2 and 1 if str1 > str2. `Note: You cannot use python compare operators. (<, >, ==)``
+3. Define a function for testing your q2 function. It takes two strings as parameters and compare them using python compare operators (<, >, ==). Then compares the result with the result of your compare function. It returns True if your function is working and False otherwise.
+4. Define a function that takes a string and a character as parameters and finds the char in the string and returns its index. It returns -1 if the char was not found.
+5. Define a function that takes two strings as input and checks weather the second string’s characters are in the first string with the same order.
+`Example: “abcdefg”, “bdf” -> true`
+6. Define a function that takes a string and a character and returns a string between two of that char.
+`Example: “salam”, “a” -> “l” “string”, “r” -> “ing” “hello”, “b” -> “”`
+7. Define a function that takes a string as parameter and reverses that.
+### 21 - Work With strings II
+1. Define a function that takes a string as parameters and converts its uppercase characters to lowercase and visa-versa.
+`Example: “hEllO” -> “HeLLo”``
+2. A. Define a function that takes a string as parameters and adds the digits of that a string to a list and returns that list.
+`Example: “a1bc2d34f” -> [‘1’, ‘2’, ‘3’, ‘4’]``
+  1. Define a function that takes a list of character digits and converts that list to a list of integer digits.
+`Example: [‘1’, ‘2’, ‘3’, ‘4’] -> [1, 2, 3, 4]``
+  2. Use functions of A and B and define a function that takes a string and converts it to integer. (Google “atoi” if you are interested to learn more)
+`Example: “256hello1” -> 2561`
+3. A. Define a function that takes a list as parameter and gets input from user until the user enters 0 and adds the inputs to that list. (Note that the function doesn’t return anything and the passed list may not be empty.)
+  1. Define a function that gets input from user until the user enters 0 and adds the inputs to a list and returns that list.
+4. Define a function that takes some students’ name and grade and adds them to a 2D list and returns name of the student with maximum grade.
+5. Define a function that takes a list of characters and converts it to a string.
+
+### 22 - Work With Lists
+1. Define a recursive function that takes a positive integer as parameter and returns the factorial of that number.
+2. Define a recursive function that takes a string as parameter and reverses that string and returns it.
+3. Define a recursive function that takes x and n as parameters and returns True if x is a power of n and returns False otherwise.
+4. Define a recursive function that takes an integer as parameter and return the number of its digits.
+5. Define a recursive function that takes a list of integers as parameter and return the maximum integer in that list.
+6. Define a recursive function that takes a list and an integer as parameters and returns True if the integer is in that list and returns False otherwise. Note that the list may contain another list and the function should also search inner lists.
+`Example: [[1, 2, 3], [1], 2, [1, 2, [2016, 3]]], 2016 -> True`
+***Hint: Use type function.****
+7. In this problem, you will be working on a famous mathematical puzzle called The Tower of Hanoi. There are three pegs, and on the first peg is a stack of discs of different sizes, arranged in order of descending size. The object of the game is to move all of the discs
+to another peg. However, only one disc can be moved at a time, and ***a disc cannot be placed on top of a smaller disc.***
+
+### 23 - Work With Files
+Write a Python module and Implement these functionalities.
+  - createFile
+  - appendToFile
+  - readFromFile
+  - deleteFromFile
+
+### 24 - Work With Everything
+Write a python program that takes a number and shows a menu of operations on that number. It takes the number of operation and shows the result and continues taking
+number of operation until user choose exit.
+###### List of operations:
+1. Multiple of factors: Calculates multiple of the number’s prime factors.
+Ex: 12 = 22 * 3 → 2 * 3 = 6
+2. Greatest prime divisor: Finds the greatest prime divisor.
+Ex: 12 = 22 * 3 → 3
+3. Calculates poly: Gets n and n+1 multipliers and calculates the n-degree poly made
+by the multipliers for the number.
+Ex: 3 1 2 1 4 → f(x) = x3 + 2x2 + x + 4 → f (12) = 2032
+4. Calculate a.n: Gets n and theta (an angle) and calculates the number and n’s inner
+product (a.n = a * n * cos(theta)).
+Ex: 4 60 → 12 * 4 * cos (60) = 24
+5. Change base: Gets n and change the number’s base from 10 to n.
+Ex: 2 → (12)10 = (1100)2
+6. Change number: changes the number.
+7. Exit
+
+
+As you can see there are 2 python files in this zip.
+The first file _"List of operations\_2"_ contains array and built -in functions usage.
+The second python file _"List of operations\_1"_ is the same file with the same result but **WITHOUT USING BUILT-IN
+FUNCTIONS AND ARRAY.**
