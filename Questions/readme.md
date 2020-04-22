@@ -51,8 +51,8 @@ Output:
 ```
 $HW 4
 ### Palindrome
-Write a python program that gets a non-negative number as input and prints “Yes” if
-the number is palindrome, otherwise it prints “No”.
+Write a python program that gets a non-negative number as input and prints “Yes” if the number is palindrome, otherwise it prints “No”.
+
 ```
 Input:
 >>> 12321
