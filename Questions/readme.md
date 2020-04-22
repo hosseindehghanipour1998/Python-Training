@@ -451,7 +451,7 @@ Define a function named deepCopy that takes a list as parameter and returns a co
 
 ### 20 - Work With strings I
 1. Write a python program that takes a string as input and prints its characters in separate lines.
-2. Define a function that takes two string as parameters and compare them. It should return -1 if str1 < str2, 0 if str1 == str2 and 1 if str1 > str2. `Note: You cannot use python compare operators. (<, >, ==)``
+2. Define a function that takes two string as parameters and compare them. It should return -1 if str1 < str2, 0 if str1 == str2 and 1 if str1 > str2. `Note: You cannot use python compare operators. (<, >, ==)`
 3. Define a function for testing your q2 function. It takes two strings as parameters and compare them using python compare operators (<, >, ==). Then compares the result with the result of your compare function. It returns True if your function is working and False otherwise.
 4. Define a function that takes a string and a character as parameters and finds the char in the string and returns its index. It returns -1 if the char was not found.
 5. Define a function that takes two strings as input and checks weather the second string’s characters are in the first string with the same order.
@@ -461,11 +461,11 @@ Define a function named deepCopy that takes a list as parameter and returns a co
 7. Define a function that takes a string as parameter and reverses that.
 ### 21 - Work With strings II
 1. Define a function that takes a string as parameters and converts its uppercase characters to lowercase and visa-versa.
-`Example: “hEllO” -> “HeLLo”``
+`Example: “hEllO” -> “HeLLo”`
 2. A. Define a function that takes a string as parameters and adds the digits of that a string to a list and returns that list.
-`Example: “a1bc2d34f” -> [‘1’, ‘2’, ‘3’, ‘4’]``
+`Example: “a1bc2d34f” -> [‘1’, ‘2’, ‘3’, ‘4’]`
   1. Define a function that takes a list of character digits and converts that list to a list of integer digits.
-`Example: [‘1’, ‘2’, ‘3’, ‘4’] -> [1, 2, 3, 4]``
+`Example: [‘1’, ‘2’, ‘3’, ‘4’] -> [1, 2, 3, 4]`
   2. Use functions of A and B and define a function that takes a string and converts it to integer. (Google “atoi” if you are interested to learn more)
 `Example: “256hello1” -> 2561`
 3. A. Define a function that takes a list as parameter and gets input from user until the user enters 0 and adds the inputs to that list. (Note that the function doesn’t return anything and the passed list may not be empty.)
@@ -499,15 +499,15 @@ number of operation until user choose exit.
 1. Multiple of factors: Calculates multiple of the number’s prime factors.
 Ex: 12 = 22 * 3 → 2 * 3 = 6
 2. Greatest prime divisor: Finds the greatest prime divisor.
-Ex: 12 = 22 * 3 → 3
+`Ex: 12 = 22 * 3 → 3`
 3. Calculates poly: Gets n and n+1 multipliers and calculates the n-degree poly made
 by the multipliers for the number.
-Ex: 3 1 2 1 4 → f(x) = x3 + 2x2 + x + 4 → f (12) = 2032
+`Ex: 3 1 2 1 4 → f(x) = x3 + 2x2 + x + 4 → f (12) = 2032`
 4. Calculate a.n: Gets n and theta (an angle) and calculates the number and n’s inner
 product (a.n = a * n * cos(theta)).
-Ex: 4 60 → 12 * 4 * cos (60) = 24
+`Ex: 4 60 → 12 * 4 * cos (60) = 24`
 5. Change base: Gets n and change the number’s base from 10 to n.
-Ex: 2 → (12)10 = (1100)2
+`Ex: 2 → (12)10 = (1100)2`
 6. Change number: changes the number.
 7. Exit
 
