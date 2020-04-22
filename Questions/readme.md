@@ -49,7 +49,7 @@ Output:
 4
 (Note: 1 $20 coin, 1 $10 coin, 1 $5 coin and 1 $1 coin.)
 ```
-$HW 4
+
 ### Palindrome
 Write a python program that gets a non-negative number as input and prints “Yes” if the number is palindrome, otherwise it prints “No”.
 
@@ -110,4 +110,74 @@ Output:
 28 # Note: 5 + 8 + 9 + 6 = 28
 10 # Note: 1 + 0 = 1
 1 # Note: 1 < 10
+```
+
+### Nice numbers
+###### Part I
+A number is considered nice if number of its odd divisor is even.
+Write function that takes a number as argument and returns True if the argument is nice and returns false otherwise.
+
+```
+Input:
+>>> 6
+Output:
+True #Note: 1, 2, 3, 6
+Input:
+>>> 9
+Output:
+False #Note: 1, 3, 9
+```
+###### Part II
+Write a function that takes numbers from input until the user enters a nice number and returns the nice number.
+```
+Input:
+>>> 8
+>>> 9
+>>> 12
+Output:
+12
+Input:
+>>> 7
+Output:
+7
+```
+
+### Function Writing
+For a positive integer n let's define a function f:
+f(n) = n|(- 1 + 2 - 3 + .. + (( - 1)^n)n)| (f(3) = 3|(-1 + 2 -3)| = 6)
+Write a function that takes a number as its argument and returns f(n).
+
+```
+Input:
+>>> 3
+Output:
+6
+```
+
+### Digit Counter
+Write a function that takes a number as its argument and returns the number of 1s in its digits.
+```
+Input:
+>>> 1587321656131
+Output:
+4
+```
+
+### Nice + Digit
+Write a program that use above functions and takes numbers from user until the user enters a nice number and prints number of 1s in f(n) digits.
+
+```
+Input:
+>>> 1
+>>> 8
+>>> 4
+>>> 6
+Output:
+1 #Note: f(6) = 18
+Input:
+>>> 1
+>>> 2
+>>> 12
+Output:
+0 #Note: f(12) = 72
 ```
