@@ -1,4 +1,4 @@
-# Python Sample Codes
+# Python Training
 
 ### Introduction
 This repository consists of my _Python_ codes.
