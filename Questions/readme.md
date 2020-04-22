@@ -496,6 +496,8 @@ to another peg. However, only one disc can be moved at a time, and ***a disc can
 ### 23 - Work With Files
 
 [___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/23)
+
+
 Write a Python module and Implement these functionalities.
   - createFile
   - appendToFile
