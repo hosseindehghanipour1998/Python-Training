@@ -181,3 +181,66 @@ Input:
 Output:
 0 #Note: f(12) = 72
 ```
+
+### Guess the number
+Write a python program that guess the number user has selected. At first, the program gets a positive integer n from user. User selects a number k (1 <= k <= n) in his mind. The program guesses a number g and prints g. Then user should enter 1, 0 or -1. 1 means k is greater than g, -1 means k is lower than g and 0 means k is equal to "g". The program continues guessing until k is equal to g (that means finding the number) and prints the number.
+
+```
+Example:
+Enter n: 15
+8 1
+12
+-1
+10
+-1
+The number is 9
+Example
+Enter n: 100
+50
+0
+The number is 50
+```
+### Printer
+###### Part  I : Forward Backward
+Define a function that takes a number n as parameter and prints “1 2 3 … n … 3 2 1”.
+```
+Input:
+>>> 4
+Output:
+1 2 3 4 3 2 1
+```
+
+###### Part  II : Space Printer
+Define a function that takes a number n as parameter and prints “ “ n times. (“ “ is space character).
+
+###### Part  III : Diamond
+Define a function that takes a number n as parameter and uses the above functions to draw a numeric rhombus like the example below.
+
+```
+Input:
+>>> 4
+Output:
+        1
+      1 2 1
+    1 2 3 2 1
+  1 2 3 4 3 2 1
+    1 2 3 2 1
+      1 2 1
+        1
+```
+
+### An Experiment
+An experiment is defined as follows:
+Drop a ball from an initial height and calculate the total distance traveled by the ball after a certain number of bounces. The bounciness of the ball determines how high it bounces when dropped from a particular height. For example, a ball with bounciness of 0.5, will bounce 5 feet high after being dropped from a height of 10 feet. Define a function that takes three inputs: the initial height, the bounciness of the ball and number of bounces. The return value of the function should be the total distance traveled by the ball.
+
+
+```
+Input:
+10, 0.5, 2
+Output:
+22.5 #Note: 10 + 5 + 5 + 2.5
+Input:
+20, 0.2, 3
+Output:
+29.76 #Note: 20 + 4 + 4 + 0.8 + 0.8 + 0.16
+```
