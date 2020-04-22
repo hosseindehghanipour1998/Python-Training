@@ -450,6 +450,9 @@ Define a function named deepCopy that takes a list as parameter and returns a co
 ## Bonus part
 
 ### 20 - Work With strings I
+
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/20)
+
 1. Write a python program that takes a string as input and prints its characters in separate lines.
 2. Define a function that takes two string as parameters and compare them. It should return -1 if str1 < str2, 0 if str1 == str2 and 1 if str1 > str2. `Note: You cannot use python compare operators. (<, >, ==)`
 3. Define a function for testing your q2 function. It takes two strings as parameters and compare them using python compare operators (<, >, ==). Then compares the result with the result of your compare function. It returns True if your function is working and False otherwise.
@@ -459,7 +462,10 @@ Define a function named deepCopy that takes a list as parameter and returns a co
 6. Define a function that takes a string and a character and returns a string between two of that char.
 `Example: “salam”, “a” -> “l” “string”, “r” -> “ing” “hello”, “b” -> “”`
 7. Define a function that takes a string as parameter and reverses that.
+
 ### 21 - Work With strings II
+
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/21)
 1. Define a function that takes a string as parameters and converts its uppercase characters to lowercase and visa-versa.
 `Example: “hEllO” -> “HeLLo”`
 2. A. Define a function that takes a string as parameters and adds the digits of that a string to a list and returns that list.
@@ -474,6 +480,8 @@ Define a function named deepCopy that takes a list as parameter and returns a co
 5. Define a function that takes a list of characters and converts it to a string.
 
 ### 22 - Work With Lists
+
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/22)
 1. Define a recursive function that takes a positive integer as parameter and returns the factorial of that number.
 2. Define a recursive function that takes a string as parameter and reverses that string and returns it.
 3. Define a recursive function that takes x and n as parameters and returns True if x is a power of n and returns False otherwise.
@@ -486,6 +494,8 @@ Define a function named deepCopy that takes a list as parameter and returns a co
 to another peg. However, only one disc can be moved at a time, and ***a disc cannot be placed on top of a smaller disc.***
 
 ### 23 - Work With Files
+
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/23)
 Write a Python module and Implement these functionalities.
   - createFile
   - appendToFile
@@ -495,6 +505,8 @@ Write a Python module and Implement these functionalities.
 ### 24 - Work With Everything
 Write a python program that takes a number and shows a menu of operations on that number. It takes the number of operation and shows the result and continues taking
 number of operation until user choose exit.
+
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/24)
 ###### List of operations:
 1. Multiple of factors: Calculates multiple of the number’s prime factors.
 Ex: 12 = 22 * 3 → 2 * 3 = 6
@@ -519,6 +531,8 @@ FUNCTIONS AND ARRAY.**
 
 ### 25 - Project : Pacman
 If you are not familiar with this game, use this [link](https://www.google.com/search?q=pac-man).
+
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/25)
 ##### Rules :
   - In this game, you have a player and some enemies that can kill the player.
   - Player starts in a particular place and starts moving when user presses a key. From now
