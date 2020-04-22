@@ -79,9 +79,9 @@ No
 
 ### 8 - Binary 2 Decimal
 Write a python program that takes two number as input, a base and a number in that base, and prints the number’s value in decimal.
-(Note: The number is positive and the base is a number between 2 and 9.)[
+(Note: The number is positive and the base is a number between 2 and 9.)
 
-___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/8)
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/8)
 
 ```
 Input:
@@ -118,9 +118,9 @@ LCM: 24
 
 ### 10 - Sum Less than 10
 Write a python program that takes a number as input and calculates the sum of its digits and continues calculating and printing its sum of digits until it reaches a number lower than 10.
-(Note that the input number can be negative. You can simply ignore its sign.)[
+(Note that the input number can be negative. You can simply ignore its sign.)
 
-___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/10)
+[___(Solution)___](https://github.com/hosseindehghanipour1998/python2-sample-questions/tree/master/Solutions/10)
 
 ```
 Input:
