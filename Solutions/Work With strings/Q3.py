@@ -1,4 +1,4 @@
-import Q2
+import IndexOf as Q2
 
 def Q3(x):
     index = Q2.Q2(x)

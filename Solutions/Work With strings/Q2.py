@@ -1,6 +1,6 @@
 #question No.2
 
-def Q2(str1):
+def iIndexOf(str1):
     str1 = str1 + " "
     len1 = len(str1)
     

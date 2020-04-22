@@ -1,5 +1,5 @@
 #question No.4
-def Q4(n):#n = hello
+def replace(n):#n = hello
     p = len(n)-1
     if p==0:
         return n[0]

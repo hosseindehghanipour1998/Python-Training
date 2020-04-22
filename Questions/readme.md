@@ -244,3 +244,93 @@ Input:
 Output:
 29.76 #Note: 20 + 4 + 4 + 0.8 + 0.8 + 0.16
 ```
+
+### Work With strings
+Note: Write function of each question in a separate file and use import if you need to use that in other questions. __And do not use any functions of python string library__.
+###### Part I : Contains
+Define a function that takes two strings as parameters and returns the beginning index of the first occurrence of str2 in str1, or -1 if str2 is not in str1.
+
+```
+Function Parameters:
+“hello world”
+“world”
+Return value:
+6
+Function Parameter:
+“hello world”
+“word”
+Return value:
+-1
+```
+###### Part II : Index Of
+Define a function that takes a string as parameter and returns last index of its first word (words are separated by space).
+```
+Function Parameters:
+“hello world”
+Return value:
+4
+Function Parameter:
+“my function”
+Return value:
+1
+```
+
+###### Part III : Reverse
+Define a function (using the function in q2) that takes a string as its parameter,
+reverses its words’ order and returns the result.
+Note: Don’t forget to import the function and do not write it in this file again.
+```
+Function Parameters:
+“hello I am testing this function!!!!”
+Return value:
+“function!!!! This testing am I hello”
+Function Parameters:
+“python”
+Return value:
+“python”
+```
+
+###### Part IV : Replace
+Define a function that swaps first and last character of a string.
+```
+Function Parameters:
+“hello”
+Return value:
+“oellh”
+Function Parameters:
+“ny functiom”
+Return value:
+“my function
+```
+###### Part V : Occurrence
+Define a function (using functions in q1 and q2) that takes two strings and deletes all occurrences of second string in first one and returns the result.
+Note: Do not forget to import functions from q1 and q2.
+```
+Function Parameters:
+“word1 word2 word1 again word1 and word2”
+“word1”
+Return value:
+“ word2 again and word2”
+Function Parameters:
+“my function”
+“hello”
+Return value:
+“my function”
+```
+
+###### Part VI : Insert
+Define a function that takes two strings and an integer as index and inserts second string in given index of the first one, adds to the end if index greater or equal to first string’s length. (you are not allowed to use string slicing: str[i:j])
+```
+Function Parameters:
+“word1 word2”
+“hello”
+3
+Return value:
+“worhellod1 word2”
+Function Parameters:
+“hello my”
+“friend”
+8
+Return value:
+“hello myfriend”
+```
