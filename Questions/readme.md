@@ -334,3 +334,82 @@ Function Parameters:
 Return value:
 “hello myfriend”
 ```
+
+### Work with Lists
+
+###### Part I : String Counter
+Define a function that takes a list of strings and count the number of strings in that list which the string length is 2 or more and the first and last character of that string are same.
+
+```
+Function Parameters:
+[“abc”, “xyz”, “aba”, “1221”]
+Return value:
+2
+```
+###### Part II : Element Frequency
+Define a function that takes a list as parameter and outputs the frequency of the elements in that list.
+
+```
+Function Parameters:
+[1, 2, “python”, 2, 3, “hello”, “python”, 2]
+output:
+1: 1
+2: 3
+“python”: 2
+3: 1
+“hello”: 1
+```
+
+###### Part III : Element Contain
+Define a function that takes two lists as parameters and returns True if they have at least one common member. (You are allowed to use ___in___ keyword).
+
+```
+Function Parameters:
+[1, 2, 3]
+[3, 4, 5]
+Return value:
+True
+Function Parameters:
+[1, [1,2], [1, 2, 3]]
+[2, 3]
+Return value:
+False
+```
+
+###### Part IV : 3D Array
+Define a function that takes m, n, p as parameters and returns an m*n*p 3D array which each element of that is ___*___.
+
+```
+Function Parameters:
+2 3 2
+Return value:
+[
+[[‘*’, ‘*’], [‘*’, ‘*’], [‘*’, ‘*’]],
+[[‘*’, ‘*’], [‘*’, ‘*’], [‘*’, ‘*’]]
+]
+```
+
+###### Part VI : Splitter
+Define a function that takes two strings as parameters, splits the first string using
+second one as delimiter, adds the tokens to a list and returns that list. Note: You are not allowed to use any functions or methods of python.
+
+```
+Function Parameters:
+“hello,how,are you”
+“,”
+Return value:
+[“hello”, “how”, “are you”]
+Function Parameters:
+“python is great .”
+“ “
+Return value:
+[“python”, “is”, “great”, “.”]
+Function Parameters:
+“to be or not to be”
+“be“
+Return value:
+[“to “, “ or not to “]
+```
+
+###### Part VII : Deep Copy
+Define a function named deepCopy that takes a list as parameter and returns a copy of that list. The list may contain other lists and those lists may contain other lists and so on. You are not allowed to use slicing and other functions and methods of python.
